@@ -1,0 +1,7 @@
+train: ../datasets/fsoco_v2_yolov7_labels/train/images
+val: ../datasets/fsoco_v2_yolov7_labels/valid/images
+test: ./datasets/fsoco_v2_yolov7_labels/test/images
+
+nc: 5
+names: ['yellow_cone', 'blue_cone', 'orange_cone', 'large_orange_cone',  'unknown_cone']
+
